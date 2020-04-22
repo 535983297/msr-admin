@@ -60,7 +60,7 @@ export const constantRouterMap = [
         meta: { title: '添加讲师' }
       },
       {
-        path: 'edit/:id',
+        path: 'edit/:id', // edit/1
         name: 'EduTeacherEdit',
         component: () => import('@/views/edu/teacher/form'),
         meta: { title: '编辑讲师', noCache: true },
